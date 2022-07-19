@@ -1,0 +1,108 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header style */
+header{
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.header-text{
+    margin-right: 30px;
+    width: 531px;
+    height: 424px;
+}
+.header-text h1{
+    margin: 0;
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.header-text p{
+    font-size: 10px;
+}
+.header-text button{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #DD0000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #FFFFFF;
+}
+.header-text button i{
+    margin-left: 10px;
+}
+.header-image{
+    margin-top: 32px;
+    height: 614px;
+    width: 581px;
+}
+
+/* main style */
+main{
+    margin-top: 100px;
+    display: flex;
+}
+
+/* tabs section */
+.tabs{
+    border-radius: 10px;
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tabs button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 251px;
+    height: 64px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+#blog-bt{
+    color: #FFFFFF;
+    background-color:#DD0000;
+}
+
+/* blog section */
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 175px;
+}
+.blog-items{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.blog-items button{
+    width: 100px;
+    height: 32px;
+}
+.blog-feed{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 143px;
+}
