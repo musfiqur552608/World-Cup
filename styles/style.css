@@ -86,12 +86,20 @@ main{
 }
 
 /* blog section */
+.blogs{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
 
+}
 .blog{
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     width: 312px;
-    height: 175px;
+    height: 362px;
 }
 .blog-items{
     margin-top: 20px;
@@ -100,9 +108,16 @@ main{
 .blog-items button{
     width: 100px;
     height: 32px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight:bold;
 }
 .blog-feed{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 143px;
+    width: 190px;
+}
+.blog-feed i{
+    margin-right: 10px;
 }
