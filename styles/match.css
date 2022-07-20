@@ -95,7 +95,7 @@ main {
 }
 
 /* blog section */
-.blogs {
+.matchs {
     margin-left: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -103,18 +103,22 @@ main {
 
 }
 
-.blog {
+.match {
     border: 1px solid rgb(233, 233, 233);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 312px;
-    height: 362px;
+    height: 242px;
 }
 
-.blog-items {
-    margin-top: 20px;
-    margin-left: 20px;
+.flags {
+    display: flex;
+}
+.flags h4{
+    margin: auto 15px;
 }
 
 .blog-items button {
