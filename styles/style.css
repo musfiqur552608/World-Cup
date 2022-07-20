@@ -50,6 +50,10 @@ header {
     color: #FFFFFF;
 }
 
+.header-text button:hover {
+    background-color: green;
+}
+
 .header-text button i {
     margin-left: 10px;
 }
@@ -58,7 +62,10 @@ header {
     margin-top: 32px;
     height: 614px;
     width: 581px;
+    animation-timing-function: ease;
+    animation: mymove s infinite;
 }
+
 
 /* main style */
 main {
@@ -196,6 +203,10 @@ hr {
         height: 276px;
     }
 
+    .header-text button:hover {
+        background-color: green;
+    }
+
     .header-text h1 {
         margin: 0;
         font-size: 40px;
@@ -291,6 +302,8 @@ hr {
 }
 
 
+
+
 /* media queries for mobiles */
 @media only screen and (max-width:688px) {
 
@@ -320,6 +333,10 @@ hr {
         margin: 0;
         font-size: 20px;
         line-height: 20px;
+    }
+
+    .header-text button:hover {
+        background-color: green;
     }
 
     .header-text button {
